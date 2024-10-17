@@ -1,0 +1,22 @@
+def my_input():    
+    val1 = input("Please respond")
+    print(val1)
+    if val1 == ("rock"): 
+        print("you played rock")
+
+    
+    val2  = input("Please respond")
+    print(val2)
+    if val2 == ("paper"): 
+        print("He played paper")   
+
+    if val1 == "rock":
+        if val2 == "paper":
+            print("winner is val2")
+        if  val2 == "rock":
+            if val1 =="paper":
+                pass
+    
+if __name__ == "__main__":
+    my_input()
+
